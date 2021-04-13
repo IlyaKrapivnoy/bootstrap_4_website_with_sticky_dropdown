@@ -5,12 +5,34 @@ body {
 }
 
 /*=== LANDING GRADIENT ===*/
-
-
+.landing {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #1A2980, #26D0CE)
+}
 
 /*=== HEADINGS & ICONS ===*/
+h4 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  padding-top: 7rem;
+  text-shadow: .05rem .05rem .05rem rgba(0,0,0,.2);
+}
 
+h1 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  text-shadow: .05rem .05rem .05rem rgba(0,0,0,.2);
+  padding: 1.8rem 0;
+}
 
+.home {
+  padding-bottom: 7rem;
+}
 
 /*=== NAVIGATION ===*/
 
