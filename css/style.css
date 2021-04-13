@@ -34,6 +34,23 @@ h1 {
   padding-bottom: 7rem;
 }
 
+.fa-stack.fa-2x {
+  font-size: 2.3rem;
+}
+
+.fa-stack-2x {
+  opacity: .5;
+}
+
+.fa-stack-1x {
+  opacity: .7;
+}
+
+.fa-globe-americas {
+  opacity: 1;
+  transform: scale(1.25)
+}
+
 /*=== NAVIGATION ===*/
 
 
