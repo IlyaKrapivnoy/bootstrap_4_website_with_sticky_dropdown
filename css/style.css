@@ -121,6 +121,14 @@ footer img {
 footer a, footer p, 
 .socket a, .socket p {
   color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+footer a:hover,  
+.socket a:hover {
+  color: #fff;
+
 }
 
 ul.social {
@@ -139,21 +147,45 @@ ul.social li {
   font-size: 2.2rem;
 }
 
+.social-btn:hover {
+  color: #d1d1d1; 
+}
  
 /*=== SOCKET ===*/
-
+.socket {
+  background-image: linear-gradient(90deg, #1A2980, #26D0CE);
+  text-align: center;
+  padding: 1rem;
+  border-top: .05rem solid #fff;
+}
 
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
+  h1 {
+    font-size: 2.6rem;
+  }
+  .fa-stack.fa-2x {
+    font-size: 2rem;
+  }
+  .fixed-background {
+    padding: 9rem 0;
+  }
 }
 
 /* Devices under 992px (xl) */
 @media (max-width: 991.98px) {
-
+  h1 {
+    font-size: 2rem;
+  }
+  .fa-stack.fa-2x {
+    font-size: 1.7rem;
+  }
+  .fixed-background {
+    padding: 7rem 0;
+  }
 }
 
 /* Devices under 768px (md) */
