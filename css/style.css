@@ -59,6 +59,22 @@ h1 {
 
 .navbar {
   background-image: linear-gradient(90deg, #1A2980, #26D0CE);
+  padding: .3rem 0 .6rem;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.15);
+}
+
+.nav-link {
+  color: #fff!important;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: .12rem;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  border-bottom: .05rem solid #fff;
 }
 
 /*=== CONTENT STYLE ===*/
