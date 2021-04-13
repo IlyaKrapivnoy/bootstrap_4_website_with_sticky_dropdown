@@ -8,7 +8,7 @@ body {
 .landing {
   text-align: center;
   text-transform: uppercase;
-  background-image: linear-gradient(90deg, #1A2980, #26D0CE)
+  background-image: linear-gradient(90deg, #1A2980, #26D0CE);
 }
 
 /*=== HEADINGS & ICONS ===*/
@@ -52,8 +52,14 @@ h1 {
 }
 
 /*=== NAVIGATION ===*/
+.navbar-brand img {
+  height: 3rem;
+  padding-top: .2rem;
+}
 
-
+.navbar {
+  background-image: linear-gradient(90deg, #1A2980, #26D0CE);
+}
 
 /*=== CONTENT STYLE ===*/
 
