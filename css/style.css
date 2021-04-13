@@ -107,9 +107,39 @@ h3 {
 }
 
 /*=== FOOTER ===*/
+footer {
+  background-image: linear-gradient(90deg, #1A2980, #26D0CE);
+  box-shadow: 0 -1rem 1rem rgba(0,0,0,.15);
+  padding: 2.5rem 2rem;
+}
 
+footer img {
+  height: 3.5rem;
+  margin: 0 auto 2rem;
+}
 
+footer a, footer p, 
+.socket a, .socket p {
+  color: #fff;
+}
 
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 18rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul.social li {
+  margin: 0 auto;
+}
+
+.social-btn {
+  font-size: 2.2rem;
+}
+
+ 
 /*=== SOCKET ===*/
 
 
