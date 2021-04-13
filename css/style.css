@@ -96,6 +96,14 @@ h3 {
 
 .fixed-background {
   overflow: hidden; /*-- Correction for iOS --*/
+  padding: 12rem 0;
+  box-shadow: 0 0 1rem rgba(0,0,0,.3);
+}
+
+.fixed {
+  background-image: url('../img/macbook.jpg');
+  position: fixed;
+  /* opacity: .5; */
 }
 
 /*=== FOOTER ===*/
